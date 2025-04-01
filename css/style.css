@@ -12,12 +12,9 @@
   }
   
   header {
-    background-image: url("img/background.jpg"); /* ここに背景画像 */
-    background-size: cover;           /* 画面にぴったり */
-    background-position: center;      /* 中央寄せ */
-    color: white;
-    padding: 3rem 1rem;
-    min-height: 200px; /* ← これで背景が確実に表示されます */
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
   }
 
@@ -29,12 +26,11 @@
   nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 1rem;
   }
   
   nav ul li {
     display: inline;
-    margin: 0 1em;
+    margin: 0 15px;
   }
   
   nav ul li a {
