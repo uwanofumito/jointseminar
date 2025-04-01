@@ -16,7 +16,8 @@
     background-size: cover;           /* 画面にぴったり */
     background-position: center;      /* 中央寄せ */
     color: white;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
+    min-height: 200px; /* ← これで背景が確実に表示されます */
     text-align: center;
   }
 
